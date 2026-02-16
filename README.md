@@ -2,6 +2,8 @@
 
 A terminal-based analogue wristwatch built with Rust and [Ratatui](https://github.com/ratatui/ratatui). A love letter to iconic dive watches, rendered in Braille characters for high-resolution terminal graphics.
 
+![rustlex](assets/2026-02-16_12-15.png)
+
 ## Features
 
 - Submariner-inspired watch face with rotating bezel, chapter ring, and date window
