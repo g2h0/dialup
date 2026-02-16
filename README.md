@@ -1,4 +1,4 @@
-# rustlex
+# dialup
 
 A terminal-based analogue wristwatch built with Rust and [Ratatui](https://github.com/ratatui/ratatui). A love letter to iconic dive watches, rendered in Braille characters for high-resolution terminal graphics.
 
@@ -20,8 +20,8 @@ Requires [Rust](https://www.rust-lang.org/tools/install) 1.70 or later.
 
 ```bash
 # Clone the repo
-git clone https://github.com/g2h0/rustlex.git
-cd rustlex
+git clone https://github.com/g2h0/dialup.git
+cd dialup
 
 # Debug build (faster compile)
 cargo build
@@ -30,7 +30,7 @@ cargo build
 cargo build --release
 ```
 
-The release binary will be at `target/release/rustlex` (or `rustlex.exe` on Windows).
+The release binary will be at `target/release/dialup` (or `dialup.exe` on Windows).
 
 ## Usage
 
@@ -39,7 +39,7 @@ The release binary will be at `target/release/rustlex` (or `rustlex.exe` on Wind
 cargo run
 
 # Or run the built binary
-./target/release/rustlex
+./target/release/dialup
 ```
 
 The watch face will fill your terminal window. Resize the terminal and the watch scales with it.
@@ -68,7 +68,7 @@ Use the scroll wheel to rotate the outer bezel. It clicks in 120 discrete positi
 
 ## Terminal Compatibility
 
-Rustlex uses Braille characters (U+2800 block) for high-resolution rendering. This works well in:
+Dialup uses Braille characters (U+2800 block) for high-resolution rendering. This works well in:
 
 - **Windows Terminal** (recommended on Windows)
 - **Kitty** (recommended on Linux)
