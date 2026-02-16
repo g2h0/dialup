@@ -7,6 +7,8 @@ A terminal-based analogue wristwatch built with Rust and [Ratatui](https://githu
 <img src="assets/2026-02-16_12-15.png" width="75%">
 <img src="assets/2026-02-16_13-58.png" width="75%">
 
+<video src="assets/demo.mp4" width="75%" autoplay loop muted playsinline></video>
+
 ## Features
 
 - Submariner-inspired watch face with rotating bezel, chapter ring, and date window
